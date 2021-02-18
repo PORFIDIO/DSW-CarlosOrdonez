@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+
+  <title>
+    Planning - DISEÑOS DE SITIOS WEB - 301122-3
+  </title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</head>
+
+
+
+<body >
+ <header>
+
+
+
+
+
+<br>
+<br><br>
+<br>
+
+  <h1 align=center >
+    HEADER <br>
+    <font style="color:#004669 "> Estructura básica de html5 (etiquetas, atributos y valores)
+    </font>
+  </h1>
+</header>
+<ul id="menu" class="menu">
+ <li class="active"><a href="planning.html">Inicio</a></li>
+ <li ><a href="conceptos.html">Conceptos</a></li>
+ <li><a href="recursos.html">Recursos</a></li>
+ <li><a href="conceptos.html">Autoevaluación</a> 
+  <ul>
+    <li>SUBMENÚ 1</li>
+    <li>SUBMENÚ 2</li>
+  </ul>
+ </li>
+ <li><a href="autorcarlos.html">Autor</a></li>
+</ul>
+
+
+
+
+
+
+
+  <div>
+
+    <div align="center">
+      <br><br>
+      <h2 style="color: white">HTML5</h2>
+      <img src="imagenes/logohtml5.png" height="300" >
+    </div>
+
+  </div>
+
+<aside>
+  <a class="twitter-timeline" data-width="500" data-height="1000" data-theme="dark" href="https://twitter.com/UniversidadUNAD?ref_src=twsrc%5Etfw">Tweets by UniversidadUNAD</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+</aside>
+  <section style="background-color: gray">
+
+
+    <h2>Qué significa HTML5</h2>
+    Cuando hablamos de HTML5 lo primero que tenemos que saber es que es la última versión de la tecnología HTML, cuyas siglas corresponden a “HyperText Markup Language”, que tiene el siguiente significado:
+    <br><br>
+    <b>HyperText: </b> cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+    <br><br>
+    <b> Markup:</b> que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: ('< p >  < / p >')
+    <br><br>
+    <b>Languaje:</b> cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web.
+</section> 
+ <section style="background-color: white">
+   <h2 align="center">Estructura HTML5</h2>
+
+
+   <div align="center">
+    <img align="center" src="imagenes/chap04-004.png">
+  </div>
+  <p>
+   Encontramos el elemento < header >. <br>
+   Debajo tenemos el primer elemento < nav >, para el menú de navegación general del sitio web, que nos permitirá navegar por las distintas páginas.<br>
+
+   A la izquierda tenemos una segunda caja < nav >, para la navegación secundaria, que contiene los vínculos relacionados directamente con el contenido de la página en cuestión.<br>
+
+   A la derecha encontramos el elemento < aside >, que muestra información relacionada con el contenido de la página, como los vínculos promocionales o los contenidos relacionados.<br>
+   Por último, el pie de página, < footer >, podrá contener las menciones legales o los vínculos de contacto, por ejemplo.
+ </p>
+
+ <br>
+</section>
+ <section>
+   
+   <h2>ETIQUETAS</h2>
+
+ HTML es un markup language, lo que significa que está escrito con códigos que puede leer una persona sin que sea necesario compilarlo primero. En otras palabras, el texto en una página web está «marcado» con estos códigos para dar instrucciones al navegador web sobre cómo mostrar el texto. Estas etiquetas de marcado son las propias <b>etiquetas HTML.</b> <br>
+
+ Cuando escribes código en HTML, estás escribiendo etiquetas HTML. Todas las etiquetas HTML están hechas con un número de partes específicas, incluyendo:<br>
+ <ul>
+  <li >El carácter “menor que” (<)</li>
+  <li >Una palabra o carácter que determina qué etiqueta se está escribiendo</li>
+  <li >Cualquier número de atributos HTML que se quiera usar, escritos de la forma nombre=”valor”</li>
+  <li >El carácter “mayor que” (>)</li>
+</ul>
+
+<br>
+<p>Hay una serie de etiquetas que son las m&aacute;s usadas para crear cualquier documento HTML, a continuaci&oacute;n las explicamos:</p>
+
+<ul>
+  <li>
+    <strong>&lt;body&gt;</strong> para el contenido</li>
+    <li><strong>&lt;head&gt;</strong> para informaci&oacute;n sobre el documento</li>
+    <li><strong>&lt;div&gt;</strong> divisi&oacute;n dentro del contenido</li>
+    <li><strong>&lt;a&gt;</strong> para enlaces</li>
+    <li><strong>&lt;strong&gt;</strong> para poner el texto en negrita</li>
+    <li><strong>&lt;br&gt;</strong> para saltos de l&iacute;nea</li>
+    <li><strong>&lt;H1&gt;</strong>&hellip;<strong>&lt;H6&gt;</strong> para t&iacute;tulos dentro del contenido</li>
+    <li><strong>&lt;img&gt;</strong> para a&ntilde;adir im&aacute;genes al documento</li>
+    <li><strong>&lt;ol&gt;</strong> para listas ordenadas, <strong>&lt;ul&gt;</strong> para listas desordenadas, <strong>&lt;li&gt;</strong> para elementos dentro de la lista</li>
+    <li><strong>&lt;p&gt;</strong> para par&aacute;grafos</li><li><strong>&lt;span&gt;</strong> para estilos de una parte del texto</li>
+  </ul>
+
+<img align="center" src="imagenes/etiquetas.jpg">
+
+ </section>
+ 
+<section>
+  
+  <h2>ATRIBUTOS</h2>
+
+ <b> Atributos:</b> Los atributos sirven para especificar características de esas etiquetas, es decir, sirven para <b>especificar características de los objetos</b>. Por ejemplo, con el atributo “src” especificamos la fuente (ruta, path, etc) de la imagen.
+
+ <img align="center" src="imagenes/etiquetas-atributos-html.png">
+
+</section>
+
+<section >
+  
+  <h2>VALORES</h2>
+
+  A cada propiedad se le pueden asignar valores por tal motivo entre atributos y valores siempre deben estar unidos por el signo = y los valores deben estar entre comillas
+  <section>
+     <img  src="imagenes/tablas3.jpg">
+
+  </section>
+
+</section>
+
+
+  </section>
+</section>
+
+<br>
+<br>
+<footer style="background-color: #F47920;color: white;padding: 30px;text-align: center;">
+  © Carlos Ordoñez (Diseños de sitios web) <br>
+  3185179961
+</footer>
+</body>
+</html>
